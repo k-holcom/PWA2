@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-size:20px;
+}
+	
+h1,h2,h3,h4,body,div{
+	margin:0;
+	padding:0;
+}
+
+.clear {
+	clear:both;
+}
+
+.listhead{
+	font-size:36px; 
+	color:#0000cc;
+}
+
+#wrap{
+	width:860px; 
+	margin:0 auto;
+}
+
+#contentleft{
+	width: 405px;
+	float: left;
+	margin: 10px 5px 0 0;
+	padding: 10px;
+	position: relative;
+	background-color: #6CF;
+}
+
+#contentright{
+	width: 405px;
+	float: right;
+	margin: 10px 0 0 5px;
+	padding: 10px;
+	position: relative;
+	background-color: #6CF;
+}
+
+
+ul{
+	padding:20px; 
+	background:#ececec; 
+	float:left; 
+	margin-right:20px;
+}
+	
+
+ul li{
+	padding:3px; 
+	list-style:none;
+}
+
+
+a{
+	color:blue;
+}
+	
