@@ -1,0 +1,154 @@
+body{
+	background:#71756f;
+}
+/**************** HEADER ****************/
+header{
+	/*display:none;*/
+	position:relative;
+	top:200px;
+	left:5%;
+	width:90%;
+}
+
+#logo{
+	width:766px;
+	margin:auto;
+}
+
+nav{
+	background:url('../img/banner.png');
+	width:960px;
+	height:50px;
+	margin:1% auto;
+	font-size:2em;
+	text-align:center;
+}
+
+nav ul li{
+	display:inline-block;
+	margin:0.75% 5% 0 0; 
+}
+
+ul{
+	list-style: none;
+}
+
+/**************** LINKS ****************/
+a:link, a:visited{
+	color:#f5fbf4;
+	text-decoration: none;
+}
+
+a:hover, a:active{
+	color:#b6bab3;
+}
+/**************** SUB MENU ****************/
+#forum{
+	display:none;
+	position:absolute;
+	left:44.5%;
+	top:281px;
+	font-size:1.25em;
+	width:15%;
+	padding:1%;
+	z-index: 0;
+	border-radius: 0.25em;
+	background:#792b2b;
+}
+
+/**************** MAIN SECTIONS ****************/
+
+section{
+	padding:2% 3%;
+	display:none;
+	margin:auto;
+	z-index: 1 !important;
+	background:rgba(39,15,9, .8);
+	border-radius: 0.2em;
+	overflow:auto;
+	width:90%;
+}
+
+/**************** "HOME" PAGE ****************/
+#home{
+	/*display:none;*/
+}
+aside{
+	float:left;
+	width:23.55%;
+}
+
+article{
+	float:left;
+	text-align:center;
+	width:70%;
+	margin:auto 3%;
+}
+
+h2{
+	color:#f5fbf4;
+	text-decoration: underline;
+}
+
+article p{
+	text-align: left;
+	width:80%;
+	margin:auto;
+	color:#f5fbf4;
+}
+.register, .linksHead{
+	display:;
+	background:url('../img/banner2.png') no-repeat;
+	height:57px;
+	padding:0.05% 10%;
+	margin-bottom:5%;
+	color:#f5fbf4;
+}
+
+.link{
+	background:#f5fbf4;
+	height:40px;
+	width:85%;
+	font-size:1.3em;
+	text-align: center;
+	margin:3% auto;
+
+	border-radius: 0.4em;
+	border:3px solid #8d8e8d;
+}
+.link p{
+	margin-top:5%;
+}
+
+.link a:link, .link a:visited{
+	color:#380c0c;
+	border-radius:0.2em;
+}
+
+
+
+/**************** MEMBER BENEFITS ****************/
+
+#members{
+	display:none;
+}
+
+/**************** MAIN FORUM PAGE ****************/
+
+/**************** GALLERY ****************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

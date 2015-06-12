@@ -1,0 +1,5 @@
+Link to GitHub gh-pages
+http://k-holcom.github.io/PWA2/Holcom_Kimerlee_ProjectWk1/basics.html
+
+Link to GitHub Repo
+https://github.com/k-holcom/PWA2/tree/gh-pages
