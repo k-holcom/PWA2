@@ -9,10 +9,39 @@
 	</head>
 
 	<body>
+		<!-- MODUL -->
+		<div id="modBG">
+			<div id="popUp">
+				<div id="close">
+					<a href="#"><p>X</p></a>
+				</div>
+				<div id="title">
+					<p>Sign Up</p>
+				</div>
+				<div id="logIn">
+					<h2>Welcome Back! <br/>Please Log In.</h2>
+					<form>
+						<input class="tool" type="text" name="username" title="Enter your username." placeholder="Username" />
+						<input class="tool" type="password" name="password" title="Enter your password." placeholder="Password" />
+						<input type="submit" name="login" value="Login" />
+					</form> 
+				</div>
+				<div id="signUp">
+					<h2>Please Sign Up!</h2>
+					<input class="tool" type="text" name="username" title="Enter a username." placeholder="Username" />
+					<input class="tool" type="password" name="password" title="Enter a password." placeholder="Password" />
+					<input class="tool" type="password" name="verPass" title="Re-Enter you password." placeholder="Re-enter Password" />
+					<input class="tool" type="email" name="email" title="Please enter your email." placeholder="Email" />
+					<input type="submit" name="login" value="Login" />
+				</div>
+			</div>
+		</div>
 		<header>
+			<!-- Logo -->
 			<div id="logo">
 				<img src="img/logo.png" alt="Mischief Mafia" />
 			</div>
+			<!-- Navigation -->
 			<nav>
 				<ul>
 					<li><a href="#">Home</a></li>
@@ -36,10 +65,10 @@
 			<div id="home">
 				<aside>
 					<div class="register">
-						<h4><a href="#">Login/Register</a></h4>
+						<h2><a href="#" class="modClick" title="Login/Register">Login/Register</a></h2>
 					</div>
 					<div class="linksHead">
-						<h4>Helpful Links</h4>
+						<h2>Helpful Links</h2>
 					</div>
 					<div class="link">
 						<p><a href="https://www.facebook.com/groups/mischiefmafiaguild/">Mischief Mafia Facebook</a></p>
@@ -75,7 +104,7 @@
 			<div id="forums">
 				<aside>
 					<div class="register">
-						<h4><a href="#">Login/Register</a></h4>
+						<h4><a href="#" class="modClick">Login/Register</a></h4>
 					</div>
 					<div class="linksHead">
 						<h4>Helpful Links</h4>
@@ -102,7 +131,7 @@
 			<div id="gallery">
 				<aside>
 					<div class="register">
-						<h4><a href="#">Login/Register</a></h4>
+						<h4><a href="#" class="modClick">Login/Register</a></h4>
 					</div>
 					<div class="linksHead">
 						<h4>Helpful Links</h4>
@@ -120,7 +149,25 @@
 						<p><a href="https://www.youtube.com/user/FatbossTV">Fatboss Video Guides</a></p>
 					</div>
 				</aside>
+				<article>
+					<div id="left">
+						<a href="#" class="arrow" id="leftArrow"><img src="img/leftArrow.png" alt="left arrow"/></a>
+					</div>
+					<div id="photos">
+						<ul>
+							<li><img id="img1" src='img/dethbybow.jpg' alt="Dethbybow's Selfie"/></li>
+							<li><img id="img2" src='img/sunaeda.jpg' alt="Sunaeda's Selfie" /></li>
+							<li><img id="img3" src="img/bellesanna.jpg" alt="Belle's Selfie" /></li>
+						</ul>
+					</div>
+					<div id="right">
+						<a href="#" class="arrow" id="rightArrow"><img src="img/rightArrow.png" alt="right arrow"/></a>
+					</div>
+				</article>
+			</div>
 		</section>
+
+
 
 		<!-- Java Script -->
 		<script src="js/plugins/jquery-1.11.3.min.js"></script>
