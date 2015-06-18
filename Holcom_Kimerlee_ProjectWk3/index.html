@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+	 Kimerlee Holcom
+	 June 16, 2015
+	 June 2015 
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Your Local Weather</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header>
+			<!-- Logo -->
+			<img src="img/logo.png" alt="Acme Weather" />
+			<!-- Navigation -->
+			<!-- Utility Nav -->
+			<div id="util">
+				<ul>
+					<li><a href="#">Login</a></li>
+					<li> | </li>
+					<li><a href="#">Sign Up</a></li>
+				</ul>
+			</div>
+
+			<!-- Main Nav -->
+			<nav>
+				<ul>
+					<li><a id="home" href="#">Home</a></li>
+					<li><a id="current" href="#">Current Conditions</a></li>
+					<li><a id="hourly" href="#">Hourly Forcast</a></li>
+					<li><a id="tenDay" href="#">10-Day Forcast</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<hr />
+
+		<!-- Main Section -->
+		<section>
+			<!-- Home -->
+			<div class="home">
+				<h1>Welcome to Acme Weather</h1>
+
+				<p>Please click on one of the following to check your local city</p>
+
+				<button class="button current">Current Conditions</button>
+				<button class="button hourly">Hourly Forcast</button>
+				<button class="button tenDay">10-Day Forcast</button>
+			</div>
+
+			<!-- Current Conditions -->
+			<div class="currentSection">
+				<h1 class="city"></h1>
+				<div class="currentConditions">
+					<div id="currentIcon"></div>
+					<div id="currentCondition"></div>
+					<p id="temp"></p>
+					<hr />
+				</div>
+				<!-- 3-Day Forcast -->
+				<h1> The Next Three Days</h1>
+				<div id="threeday">
+				</div>
+			</div>
+
+			<!-- Hourly Forcast -->
+			<div class="hourlySection">
+				<h1 class="city"></h1>
+
+				<table id="hourlyConditions">
+					<tr>
+						<th>Time</th>
+						<th>Condition</th>
+						<th>Temp</th>
+						<th>Description</th>
+						<th>Precipitation</th>
+						<th>Humidity</th>
+					</tr>
+					
+				</table>
+			</div>
+
+			<!-- 10-Day Forcast -->
+			<div class="ten">
+				<h1 class="city"></h1>
+				<div id="tenForecast">
+
+				</div>	
+			</div>
+		</section>
+
+		<!-- Java Script -->
+		<script src="js/plugins/jquery-1.11.3.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

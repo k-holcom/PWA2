@@ -1,0 +1,221 @@
+/********* MAIN CSS **********/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color:#00477D;
+}
+body{
+	background:#80C8FE;
+}
+
+hr{
+	width:94%;
+	margin:1% auto;
+	background:#00477D;
+	height:0.25em;
+}
+
+/********** HEADER **********/
+header{
+	margin:1% 4%;
+}
+	
+	/***** NAVIGATION *****/
+	a:link, a:visited{
+		color:#00477D;
+		text-decoration: none;
+	}
+
+	a:hover, a:active{
+		color:#0066B3;
+	}
+
+	/***** UTILITY NAVIGATION *****/
+	#util{
+		float:right;
+	}
+
+	#util ul li{
+		display:inline-block;
+	}
+
+	/***** UTILITY NAVIGATION *****/
+	nav{
+		float:right;
+		margin-top:-2.2%;
+		width:70%;
+		text-align: right;
+	}
+	nav ul li{
+		display:inline-block;
+		margin-left:10%;
+	}
+
+/********** MAIN SECTION **********/
+section{
+	width:97%;
+	margin:1% auto;
+	overflow:auto;
+}
+
+section  h1{
+	font-size:2.5em;
+	text-align: center;
+	margin:2% auto;
+}
+
+.button{
+	width:50%;
+	margin:1% auto;
+	height:50px;
+	font-size: 1.3em;
+	background:linear-gradient(#00477D, #0066B3);
+	border-radius: 0.3em;
+	border:#00477D;
+	color:#efefef;
+
+}
+
+.button:hover{
+	background:linear-gradient(#0066B3, #00477D);
+	cursor:pointer;
+}
+
+.button:active{
+	background:#0066B3;
+}
+
+	/***** HOME *****/
+	.home{
+		width:100%;
+		text-align: center;
+	}
+
+	.home p{
+		font-size:1.5em;
+		text-align: center;
+	}
+
+	/***** CURRENT CONDITIONS *****/
+	.currentSection{
+		display:none;
+	}
+
+	.currentSection p{
+		font-size:1.8em;
+		text-align: center;
+
+	}
+
+	#currentIcon{
+		margin:0.5% auto;
+		width:10%;
+		text-align: center;
+	}
+
+	#currentCondition{
+		margin:0.5% auto;
+		width:20%;
+		text-align: center;
+		text-transform: capitalize;
+	}
+
+	/***** 3-DAY FORCAST *****/
+	#threeday{
+		width:81%;
+		overflow:auto;
+		margin:1% auto;
+		text-align:center;
+	}
+
+	.threeday{
+		width:31%;
+		margin:1%;
+		float:left;
+		text-align: center;
+	}
+
+	.day{
+		font-size:1.2em;
+	}
+
+	.Icon{
+		width:20%;
+		margin:2% auto;
+	}
+
+	.Condition{
+		margin:2% auto;
+	}
+
+	.highTemp{
+		font-size:1.5em;
+		margin:3% auto;
+	}
+
+	/***** HOURLY FORECAST *****/
+	.hourlySection{
+		display:none;
+	}
+
+	table{
+		width:90%;
+		margin:auto;
+		text-align: center;
+	}
+
+	th{
+		margin:1%;
+		width:15.33%;
+		font-weight:bolder;
+		text-decoration: underline;
+		font-size: 1.2em;
+	}
+	tr{
+		margin:2% 1%;
+		border:1px solid #00477D;
+	}
+
+	td{
+		margin:2% 1%;
+	}
+
+	/***** 10-DAY FORECAST *****/
+	.ten{
+		display:none;
+	}
+
+	#tenForecast{
+		overflow:auto;
+		text-align: center;
+	}
+
+	.tenday{
+		padding:0.5%;
+		margin:.57%;
+		width:17.5%;
+		float:left;
+		border:2px solid #00477D;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
