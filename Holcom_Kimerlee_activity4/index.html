@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Polar Auctions</title>
+		<link rel="stylesheet" href="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<!-- Header -->
+		<header>
+			<div id="utilityNav">
+				<ul>
+					<li><a href="#" id="login">Login</a></li>
+					<li> | </li>
+					<li><a href="#" id="signUp">Sign Up</a></li>
+				</ul>
+			</div>
+			<a href="#"><img id="logo" src="img/logo.png" alt="Polar Auctions" /></a>
+
+			<!-- Search Bar -->
+			<form>
+				<select id="categories">
+					<option selected>Choose a category...</option>
+					<option>Electronics</option>
+					<option>Clothes</option>
+					<option>Auto</option>
+					<option>Misc.</option>
+				</select>
+				<input id="searchBar" type="text" name="searchBar" placeholder="Search..." />
+				<input id="search" type="submit" name="search" value="Search" />
+			</form>
+		</header>
+
+		<!-- Navigation -->
+		<div id="wrapper">
+			<aside id="mainNav">
+				<nav>
+					<ul>
+						<li>Home</li>
+						<li>Categories</li>
+						<li class="active">My Account</li>
+						<li>Customer Support</li>
+					</ul>
+				</nav>
+			</aside>
+			<!-- Main Section -->
+			<section>
+				<h1>My Account</h1>
+				<div id="sections">
+					<h3>Profile</h3>
+					<div>
+						<div class="info">
+							<h4>Personal Information</h4>
+							<p><b>Name:</b> Kim Holcom</p>
+							<p><b>Birthday:</b> hidden</p>
+							<p><b>Address:</b> 123 Sesame St Nowhere,USA</p>
+							<p>Edit your icon. <a href="#" id="edit">Click Here</a></p>
+						</div>
+						<div id="icon">
+							<div id="chosenIcon">
+
+							</div>
+						</div>
+					</div>
+					<h3>Current Orders</h3>
+					<div>
+						<h4>You do not have any current orders</h4> 
+						<p> Why not go shopping?</p>
+					</div>
+					<h3>Past Orders</h3>
+					<div>
+						<h4>You haven't ordered anything from us.</h4>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- Sub Menu for Categories -->
+		<ul id="subMenu">
+			<li>Auto</li>
+			<li>Clothes</li>
+			<li>Electronics</li>
+			<li>Misc.</li>
+		</ul>
+
+		<!-- Dialog Boxes/Modals -->
+		<!-- Login Modal -->
+		<div id="loginBox" title="Login">
+			<h3>Please Login</h3>
+			<form>
+				<input type="text" class="username" name="username" placeholder="Username" title="Enter Your Username" />
+				<input type="password" class="password" name="password" placeholder="Password" title="Enter Your Password" />
+				<input type="submit" class="submit" name="login" value="Login" />
+			</form>
+		</div>
+
+		<!-- Sign Up Modal -->
+		<div id="signUpBox" title="Sign Up Here!">
+			<h3>Sign Up To Get Started!</h3>
+			<form>
+				<input type="text" class="username" name="username" placeholder="Username" title="Enter a Username"/>
+				<input type="password" class="password" name="password" placeholder="Password" title="Enter A Password"/>
+				<input type="password" class="password" name="verPassword" placeholder="Verify Password" title="Please Re-Enter Your Password" />
+				<input type="email" class="email" name="email" placeholder="Email" title="Enter Your Email" />
+				<input type="submit" class="submit" name="login" value="Login" />
+			</form>
+		</div>
+
+		<!-- Edit Modal -->
+		<div id="editBox" title="Choose Your Icon">
+			<h4>Choose and Drag Your Favorite to the Box Below.</h4>
+			<img id="butterfly" class="draggable" src="img/smbutterfly.png" alt="Butterfly" />
+			<img id="tomatoes" class="draggable" src="img/smtomatoes.png" alt="Tomatoes" />
+			<img id="sprouts" class="draggable" src="img/smsprouts.png" alt="Sprouts" />
+			<img id="cookies" class="draggable" src="img/smcookies.png" alt="Cookies" />
+			<h4>Drop Your Image Here</h4>
+			<div id="myImage" class="droppable">
+
+			</div>
+			<button id="finished">Finished</button>
+		</div>
+
+		<!-- JavaScript -->
+		<script src="js/plugins/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+		<script src="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

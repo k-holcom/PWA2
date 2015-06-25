@@ -1,0 +1,162 @@
+body{
+	background:#9bcc60;
+	color:#1c160d;
+}
+#wrapper{
+	overflow:auto;
+	width:90%;
+	margin:auto;
+}
+
+/********** LINKS **********/
+a:link, a:visited{
+	color:#1c160d;
+	text-decoration: none;
+}
+
+a:hover, a:active{
+	text-decoration:underline;
+}
+
+/********** HEADER **********/
+header{
+	text-align:center;
+}
+
+/***** UTILITY NAV *****/
+#utilityNav{
+	float:right;
+	padding-right:5%;
+}
+#utilityNav li{
+	list-style: none;
+	display:inline-block;
+}
+
+/***** LOGO *****/
+#logo{
+	position:relative;
+	left:9%;
+}
+
+/***** SEARCH BAR/CATEGORIES *****/
+#categories{
+	width:17%;
+}
+#searchBar{
+	width:50%;
+	padding:0.5%;
+	font-size:1.1em;
+	position:relative;
+	top:-13px;
+}
+#search{
+	position:relative;
+	top:-16px;
+	padding:0.75%;
+}
+
+/********** NAVIGATION **********/
+aside{
+	margin:1%;
+	width:20%;
+	text-align: left;
+	float: left;
+}
+#mainNav{
+	margin:1% 5%;
+}
+
+nav ul li, #subMenu li{
+	list-style: none;
+	font-size:1.1em;
+	font-family:sans-serif;
+	margin:5% 0 5% -5%;
+	padding:5%;
+	width:70%;
+	cursor: pointer;
+}
+
+nav ul li:hover, .active{
+	background:#1c160d;
+	border-radius: 4px;
+	color:#9bcc60;
+}
+
+#subMenu{
+	display:none;
+	width: 15%;
+	background:#1c160d;
+	color:#9bcc60;
+	border-radius: 4px;
+	position:relative;
+	z-index: 100;
+	left:25%;
+	top:-195px;
+}
+
+/********** MAIN SECTION **********/
+section{
+	width:64.5%;
+	float:left;
+	text-align: center;
+}
+.info{
+	width:50%;
+	float:left;
+}
+#icon{
+	width:40%;
+	float:left;
+	margin-left:5%;
+}
+.info p{
+	text-align: left;
+	margin-left:10%;
+	
+}
+#chosenIcon{
+	height:100px;
+	width:100px;
+	margin:5% auto;
+}
+
+#edit{
+	color:#9bcc60;
+}
+
+#myImage{
+	width:200px;
+	height:200px;
+	border:1px dashed white;
+}
+#finished{
+	margin:5% auto;
+}
+
+.highlight{
+	border:#9bcc60;
+}
+/********** MODALS **********/
+#loginBox{
+	width:100%;
+	text-align: center;
+}
+
+.submit, .username, .password, .email{
+	width:90%;
+	margin:2% 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
