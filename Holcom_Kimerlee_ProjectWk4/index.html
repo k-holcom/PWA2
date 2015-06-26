@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>What Do I Need To Do?</title>
+		<link rel="stylesheet" href="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<button id="customize">Customize your To-Do list</button>
+		<!-- HEADER -->
+		<header>
+			<h1 id="title"></h1>
+		</header>
+
+		<section>
+			<aside>
+				<button id="add">Add A Task</button>
+			</aside>
+			<article>
+				<div id="toDo">
+					<h2>Things that Need To Be Completed</h2>
+					<table id="toDoList">
+						<tr>
+							<th>Task Name</th>
+							<th>Brief Description</th>
+							<th>Due Date</th>
+						</tr>
+					</table>
+				</div>
+				<hr />
+				<div id="completed">
+					<h2>These Tasks Have Been Completed</h2>
+				</div>
+			</article>
+		</section>
+
+		<!-- MODALS -->
+		<!-- Getting User's Name -->
+		<div id="name" title="Welcome!">
+			<h5>What is your name?</h5>
+			<form>
+				<input type="text" id="myName" class="input" />
+				<input type="submit" id="enter" value="Enter"
+			</form>
+		</div>
+
+		<!-- Add a Task -->
+		<div id="addTask" title="What do you need to do?">
+			<h5>Enter The Following Info For The Task</h5>
+			<form>
+				<input type="text" class="task" id="taskName" name"taskName" placeholder="Task Name" />
+				<input type="text" class="task" id="descrip" name="description" placeholder="Brief Description" />
+				<input type="text" class="task" id="dueDate" name="dueDate" placeholder="Pick A Due Date" />
+				<input type="submit" id="addToList" name="add" value="Add Task" />
+			</form>
+		</div>
+
+		<!-- JavaScript -->
+		<script src="js/plugins/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+		<script src="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

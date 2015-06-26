@@ -1,0 +1,57 @@
+body{
+	text-align: center;
+	background:#f8eec9;
+	color:#4f4221;
+}
+/***** MODALS *****/
+#enter{
+	margin: 3% auto;
+}
+
+.task{
+	margin:1% auto;
+}
+#addToList{
+	width:60%;
+	margin:1% auto;
+
+}
+/***** SECTION *****/
+section{
+	width:90%;
+	margin:auto;
+	overflow:auto;
+}
+aside{
+	width:20%;
+	float:left;
+	margin:1% 2.5%;
+}
+article{
+	width:70%;
+	margin:1% 2.5%;
+	float:left;
+}
+#toDo, #completed{
+	margin:auto;
+	width:90%;
+}
+table{
+	width:90%;
+	margin:auto;
+	text-align: center;
+}
+th{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
